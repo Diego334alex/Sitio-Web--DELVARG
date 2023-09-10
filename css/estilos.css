@@ -193,6 +193,7 @@ background: rgba(0, 0, 0, .9);
 
 .categorias-recomendadas .contenedor-carousel .carousel {
   display: flex;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
