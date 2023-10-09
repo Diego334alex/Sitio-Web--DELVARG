@@ -10,11 +10,20 @@
 }
 
 body {
-	background: #BA2BD2;
+	background: #2f4858;
 	font-family: 'Open Sans';
 }
 
 .contenedor {
+	width: 95%;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+.contenedor-uno {
 	width: 95%;
 	margin: auto;
 }
@@ -31,6 +40,14 @@ header .contenedor-uno {
 	align-items: center;
 }
 
+header .recuadroSecciones {
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 header .contenedor-dos {
 	display: flex;
 	justify-content: center;
@@ -40,10 +57,10 @@ header .contenedor-dos {
 }
 
 header .logotipo {
-	font-family: 'Curlz MT';
+  font-family: 'Courier new';
 	font-weight: normal;
 	color: #00ffb3;
-	font-size: 60px;
+	font-size: 55px;
 }
 
 header nav a {
@@ -253,7 +270,7 @@ background: rgba(0, 0, 0, .9);
 /*Footer section*/
 
 .footer__container {
-    background-color: #722083;
+    background-color: #041330;
     padding: 3rem;
     display: flex;
     flex-direction: column;

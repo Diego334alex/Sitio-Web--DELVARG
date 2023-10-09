@@ -4,6 +4,15 @@ const categorias = document.querySelectorAll("categoria");
 const flechaIzquierda = document.getElementById("flecha-izquierda");
 const flechaDerecha = document.getElementById("flecha-derecha");
 
+document.getElementById("mostrarSecciones").addEventListener("click", function() {
+    var recuadro = document.getElementById("recuadroSecciones");
+    if (recuadro.style.display === "none") {
+      recuadro.style.display = "block";
+    } else {
+      recuadro.style.display = "none";
+    }
+  });
+
 // ----- ----- Event Listener para la flecha derecha. ----- -----//
 flechaDerecha.addEventListener("click", () => {
     fila.scrollLeft += fila.offsetWidth;

@@ -10,7 +10,7 @@
 }
 
 body {
-	background: #BA2BD2;
+	background: #2f4858;
 	font-family: 'Open Sans';
 }
 
@@ -40,7 +40,7 @@ header .contenedor-dos {
 }
 
 header .logotipo {
-	font-family: 'Curlz MT';
+	font-family: 'Courier new';
 	font-weight: normal;
 	color: #00ffb3;
 	font-size: 60px;
@@ -193,6 +193,7 @@ background: rgba(0, 0, 0, .9);
 
 .carne-de-res .contenedor-carousel .carousel {
   display: flex;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
@@ -252,7 +253,7 @@ background: rgba(0, 0, 0, .9);
 /*Footer section*/
 
 .footer__container {
-    background-color: #722083;
+    background-color: #041330;
     padding: 3rem;
     display: flex;
     flex-direction: column;
