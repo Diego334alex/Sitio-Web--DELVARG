@@ -4,8 +4,8 @@ const categorias = document.querySelectorAll("categoria");
 const flechaIzquierda = document.getElementById("flecha-izquierda");
 const flechaDerecha = document.getElementById("flecha-derecha");
 
-document.getElementById("mostrarSecciones").addEventListener("click", function() {
-    var recuadro = document.getElementById("recuadroSecciones");
+document.getElementsByClassName("mostrarSecciones").addEventListener("click", function() {
+    var recuadro = document.getElementsByClassName("recuadroSecciones");
     if (recuadro.style.display === "none") {
       recuadro.style.display = "block";
     } else {

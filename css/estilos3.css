@@ -10,7 +10,7 @@
 }
 
 body {
-	background: #BA2BD2;
+	background: #2f4858;
 	font-family: 'Open Sans';
 }
 
@@ -40,7 +40,7 @@ header .contenedor-dos {
 }
 
 header .logotipo {
-	font-family: 'Curlz MT';
+	font-family: 'Courier new';
 	font-weight: normal;
 	color: #00ffb3;
 	font-size: 60px;

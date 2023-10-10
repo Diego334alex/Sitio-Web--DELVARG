@@ -23,11 +23,6 @@ h2 {
 	text-align: center;
 }
 
-.contenedor-uno {
-	width: 95%;
-	margin: auto;
-}
-
 header {
 	padding: 30px 5;
   width: 100%;
@@ -38,6 +33,8 @@ header .contenedor-uno {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  width: 95%;
+	margin: auto;
 }
 
 header .recuadroSecciones {
@@ -46,6 +43,28 @@ header .recuadroSecciones {
   display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.contenedor-uno .mostrarSecciones {
+  background: rgba(18, 196, 250, 0.822);
+	border: black;
+	border-radius: 2em;
+	padding: 0.93em 1.87em;
+	color: #dfdfdf;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease linear;
+	font-size: 1.12em;
+}
+
+.contenedor-uno .mostrarSecciones:hover {
+    color: black;
+    background-image: linear-gradient(to right, #24ff3a 0%, #0091ff 100%);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-property: initial;
+    transition-timing-function: linear;
+    border-radius: 0.5em;
 }
 
 header .contenedor-dos {
