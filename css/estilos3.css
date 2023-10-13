@@ -194,6 +194,7 @@ background: rgba(0, 0, 0, .9);
 .carne-de-res .contenedor-carousel .carousel {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .carne-de-res .contenedor-carousel .carousel .categoria {
