@@ -62,7 +62,7 @@ header nav a.activo {
 	font-size: 16px;
 	min-height: 50em;
 	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 20%), url(https://www.sportlife.es/uploads/s1/75/26/74/7/5bc5a8a90de694202e3496c7-10-claves-para-comer-en-familia-de-forma-saludable.jpeg);
+	background: linear-gradient(rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 20%), url(../img/alimentos.jpg);
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 3.12em;
