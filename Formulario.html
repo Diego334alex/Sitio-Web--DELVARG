@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Formulario de Registro.</title>
+</head>
+
+<body>
+
+    <header>
+		<div class="contenedor-uno">
+			<a><img src="img/logo.jpg" alt"logotipo" width="190px" height="100px"></a>
+			<h2 class="logotipo">Inversiones DELVARG 28 C. A.</h2>
+		</div>
+		<div class="contenedor-dos">
+			<nav>
+				<a class="activo">Inicio</a>
+				<a href="alimentos.html">Alimentos</a>
+				<a href="ropa.html">Ropa</a>
+				<a href="tecnología.html">Tecnología</a>
+				<a href="novedades.html">Novedades</a>
+				<a href="sobreNosotros.html">Sobre nosotros</a>
+			</nav>
+		</div>
+	</header>
+
+    <main>
+
+        <h2>Registro de Usuario.</h2>
+
+        <form action="Database.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        
+            <button type="submit">Registrarse.</button>
+        </form>
+
+		<h3> ¿Ya tiene una cuenta? </h3>
+
+		<h2>Iniciar sesión.</h2>
+
+        <form action="Database.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        
+            <button type="submit">Iniciar sesión.</button>
+        </form>
+
+    </main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main1.js"></script>
+
+</body>
+
+<footer>
+
+	<div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper-izquierda">
+            <div class="footer__link--items-izquierda">
+              <h2>Sobre nosotros</h2>
+			  <br>
+              <a href="/">Soporte.</a>
+              <a href="https://wa.me/message/ZJJ2XVA67OTQN1">Contáctanos.</a>
+              <a href="https://wa.me/message/ZJJ2XVA67OTQN1">Cotizaciones.</a>
+              <a href="">Términos de Servicio.</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper-derecha">
+            <div class="footer__link--items-derecha">
+              <h2>Redes Sociales</h2>
+			  <br>
+              <a href="https://www.instagram.com/inversionesdelvarg/">Instagram.</a> 
+			  <a href="https://www.facebook.com/MegaMundo.es">Facebook.</a> 
+			  <a href="https://wa.me/message/ZJJ2XVA67OTQN1">WhatsApp.</a>
+            </div>
+          </div>
+        </div>
+		<section class="social__media">
+			<div class="social__media--wrap">
+			  <div class="footer__logo">
+				<a id="footer__logo"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-planet" width="50" height="50" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00ffb3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+				  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+				  <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
+				  <circle cx="12" cy="12" r="7" /></svg>INV. DELVARG 28 C. A.</a>
+			  </div>
+			  <p class="website__rights">© Todos los derechos reservados. 2023.</p>
+			</div>
+		</section>
+	</div>
+    
+</footer>
+
+</html>

@@ -58,6 +58,12 @@ header nav a.activo {
 }
 
 /* ---- ----- ----- Sección Principal ----- ----- ----- */
+
+h3 {
+  color: #45f11a;
+  font-size: 26px;
+}
+
 .seccion-principal {
 	font-size: 16px;
 	min-height: 50em;
@@ -80,6 +86,7 @@ header nav a.activo {
 	font-weight: 600;
 	font-size: 500%;
 	margin-bottom: 0.4em;
+  color: #dfdfdf;
 }
 
 .seccion-principal .descripcion {
@@ -114,6 +121,10 @@ header nav a.activo {
 
 .seccion-principal .boton i {
 	margin-right: 1.25em;
+}
+
+.contenedores-informativos {
+  font-size: larger;
 }
 
 /* ---- ----- ----- Contenedor título y controles. ----- ----- ----- */
